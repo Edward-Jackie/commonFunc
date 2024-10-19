@@ -5,6 +5,10 @@ import (
 	"os/exec"
 )
 
+func chooseOption() {
+	// 提供选项
+}
+
 func welcome() {
 	cmd := exec.Command("echo", "Hello World!")
 	output, err := cmd.CombinedOutput()
